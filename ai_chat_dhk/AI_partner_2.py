@@ -82,7 +82,10 @@ def delete_session(session_name):
 st.title("易观AI数据分析专家")
 
 # Logo
-st.logo("./yiguanlogo.png")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+logo_path = os.path.join(current_dir, "yiguanlogo.png")
+# 用 st.image 替代 st.logo，更稳定
+st.image(logo_path, width=200)
 
 # 系统提示词
 system_prompt = """
