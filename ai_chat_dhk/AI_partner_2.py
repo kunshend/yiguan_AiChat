@@ -82,7 +82,7 @@ def delete_session(session_name):
 st.title("易观AI数据分析专家")
 
 # Logo
-st.logo("./resource/yiguanlogo.png")
+st.logo("./yiguanlogo.png")
 
 # 系统提示词
 system_prompt = """
