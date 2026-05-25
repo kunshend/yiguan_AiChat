@@ -8,7 +8,7 @@ from pyarrow.lib import large_list
 
 # 设置页面的配置项
 st.set_page_config(
-    page_title="AI智能伴侣",
+    page_title="AI数据分析",
     page_icon="🤖",
     layout="wide", # 布局
     initial_sidebar_state="expanded", # 控制的是侧边栏的状态
